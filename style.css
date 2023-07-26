@@ -1,0 +1,53 @@
+/* CSS Reset (optional but recommended) */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(3, 21, 27); /* Add this line to set the background color */
+}
+
+h1 {
+    color: rgb(81, 98, 98);
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: start; /* Center the heading */
+}
+
+ul.profile-list {
+    list-style: none;
+    padding: 1;
+    text-align: start; /* Center the links */
+}
+
+li {
+    margin-bottom: 20px; /* Increase the margin between links */
+}
+
+a {
+    color: #b9c9db;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+a i {
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add more styling to the icons */
+i.fab {
+    font-size: 28px;
+    color: #ffffff;
+}
